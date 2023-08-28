@@ -5,6 +5,8 @@ import { InjectStripe } from 'nestjs-stripe';
 const stripe = require('stripe')(
   'sk_test_51NShvBAsWPWZdLNGTn5jNRXuyOrzwEiBjqzslvo02F43IOQ99uoWk13FOXeZSdPMZbodOl4Mq4BuYIA6RwH2vuz200rha2KtWv',
 );
+const endpointSecret = "whsec_7f60ce0a615a70ec4df069f7b95c63f7eabd662011653b08b290d35b271aec62";
+
 */
 
 import Stripe from 'stripe';

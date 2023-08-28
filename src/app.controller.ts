@@ -19,7 +19,8 @@ export class AppController {
     async createIntent(@Body() createIntentDto: CreateIntentDto) {
       const { amount, currency } = createIntentDto;
       const intent = await this.appService.createIntent(amount, currency);
-      return { clientSecret: intent.client_secret };
+   
+      return { clientSecret: intent.client_secret};
     }
 
 
